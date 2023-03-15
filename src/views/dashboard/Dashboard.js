@@ -53,6 +53,7 @@ import avatar6 from 'src/assets/images/avatars/6.jpg'
 
 import WidgetsBrand from '../widgets/WidgetsBrand'
 import WidgetsDropdown from '../widgets/WidgetsDropdown'
+import App from 'src/components/FileBrowser'
 
 const Dashboard = () => {
   const random = (min, max) => Math.floor(Math.random() * (max - min + 1) + min)
@@ -180,6 +181,7 @@ const Dashboard = () => {
 
   return (
     <>
+      <App />
       <WidgetsDropdown />
       <CCard className="mb-4">
         <CCardBody>

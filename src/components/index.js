@@ -7,7 +7,10 @@ import AppSidebar from './AppSidebar'
 import DocsCallout from './DocsCallout'
 import DocsLink from './DocsLink'
 import DocsExample from './DocsExample'
-
+import App from './FileBrowser'
+import { setChonkyDefaults } from 'chonky'
+import { ChonkyIconFA } from 'chonky-icon-fontawesome'
+setChonkyDefaults({ iconComponent: ChonkyIconFA })
 export {
   AppBreadcrumb,
   AppContent,
@@ -18,4 +21,5 @@ export {
   DocsCallout,
   DocsLink,
   DocsExample,
+  App,
 }
